@@ -199,7 +199,9 @@ img {
 
 .benefits__container {
   padding: 36px 24px;
-  
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
 
 .benefits__title {
@@ -212,7 +214,9 @@ img {
 }
 
 .benefits__card {
-  
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
 }
 
 .benefits__card-title {
@@ -227,5 +231,15 @@ img {
 }
 
 .benefits__card-more {
-
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.benefits__card-link{
+  color: #006DFE;
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
 }
