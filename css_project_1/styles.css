@@ -55,6 +55,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* common styles */
+
+.more-button {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+
+  color: #006DFE;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
 /* global styles */
 
 /* header styles start */
@@ -287,15 +301,7 @@ img {
   font-size: 40px;
 }
 
-.inspired-link {
-  display: flex;
-  align-items: center;
-  column-gap: 16px;
 
-  color: #006DFE;
-  font-size: 16px;
-  line-height: 24px;
-}
 
 .inspired__body {
     display: flex;
@@ -345,4 +351,36 @@ img {
   color: #fff;
 }
 
+.inspired-body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
 
+.place-item {
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 36px;
+}
+
+.place-description {
+  padding: 36px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.place-description__title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.place-description__text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.place-item:is(.reverse) {
+flex-direction: row-reverse;
+}
