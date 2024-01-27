@@ -472,4 +472,49 @@ align-items: end;
   color: #fff;
   align-items: center;
 }
+
+.bottom_video {
+  margin-top: 72px;
+  height: 610px;
+}
+
+.bottom_video-wrapper {
+  height: 100%;
+  background: url(../images_project_1/japan_backround.jpg) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer {
+  background: #0E1D28;
+  padding: 64px 96px;
+}
+
+.footer-wrapper {
+
+}
   
+.footer-list {
+  display: flex;
+  column-gap: 48px;
+}
+
+.footer-list__items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.footer-list__item {
+  color: #FFF;
+  font-size: 18px;
+  line-height: 24px;
+  transition: all .3s;
+}
+
+.footer-list__item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
